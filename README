@@ -1,0 +1,21 @@
+Installation
+
+    git clone https://github.com/wpug/dotvim.git ~./vim
+
+Create symbolic link:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+
+While inside your ~/.vim directory issue the following commands:
+
+    git submodule init
+    git submodule update
+
+This will initialize the Vundle submodule required for proper Vim
+installation and functioning.
+
+Open Vim and issue the command
+
+    :BundleInstall
+
+it will install all the plugins mentioned in the ~/.vimrc file.
