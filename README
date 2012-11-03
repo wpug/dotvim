@@ -1,6 +1,6 @@
 Installation
 
-    git clone https://github.com/wpug/dotvim.git ~./vim
+    git clone https://github.com/wpug/dotvim.git ~/.vim
 
 Create symbolic link:
 
