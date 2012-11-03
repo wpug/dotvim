@@ -11,17 +11,16 @@ While inside your ~/.vim directory issue the following commands:
     git submodule init
     git submodule update
 
-This will initialize the Vundle submodule required for proper Vim
+This will initialize the Vundle submodule required for proper VIM
 installation and functioning.
 
-Open Vim (disregard the warning message about the missing xoria256
-color schema) and issue the command:
+Open Vim and issue the command:
 
     :BundleInstall
 
 it will install all the "bundles" listed in the ~/.vimrc file.
 
-Close VIM with the command
+Exit with the command
 
     :qa
 

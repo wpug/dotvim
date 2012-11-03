@@ -75,7 +75,12 @@ filetype on
 filetype plugin on
 filetype indent on
 set t_Co=256
-colorscheme xoria256
+
+try 
+    colorscheme xoria256
+catch
+    colorscheme elflord
+endtry
 
 " Enable enhanced command-line completion. Presumes you have compiled
 " with +wildmenu.  See :help 'wildmenu'
