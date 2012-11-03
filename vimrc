@@ -41,6 +41,7 @@ Bundle 'wpug/vim-utl-calutil'
 
 " languages {{{
 Bundle 'wpug/vim-lang-alloy4'
+Bundle 'Better-CSS-Syntax-for-Vim'
 Bundle 'wpug/vim-lang-html'
 Bundle 'othree/html5.vim'
 Bundle 'digitaltoad/vim-jade'
