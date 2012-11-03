@@ -14,8 +14,9 @@ While inside your ~/.vim directory issue the following commands:
 This will initialize the Vundle submodule required for proper Vim
 installation and functioning.
 
-Open Vim and issue the command
+Open Vim (disregard the warning message about the missing xoria256
+color schema) and issue the command:
 
     :BundleInstall
 
-it will install all the plugins mentioned in the ~/.vimrc file.
+it will install all the "bundles" listed in the ~/.vimrc file.
