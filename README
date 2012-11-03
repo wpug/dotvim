@@ -20,3 +20,10 @@ color schema) and issue the command:
     :BundleInstall
 
 it will install all the "bundles" listed in the ~/.vimrc file.
+
+Close VIM with the command
+
+    :qa
+
+Next time you open VIM it should work as expected.
+
