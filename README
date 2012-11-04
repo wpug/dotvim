@@ -1,21 +1,26 @@
 Installation
+============
+
+Clone my VIM setup and the Vundle plugin from GitHub.
+----------------------------------------------------
 
     git clone https://github.com/wpug/dotvim.git ~/.vim
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-Create symbolic link:
+Create .vimrc as a symbolic link
+--------------------------------
 
     ln -s ~/.vim/vimrc ~/.vimrc
 
-Open Vim and issue the command:
+Install the "bundles" with plugins
+----------------------------------
+
+Open VIM and issue the command
 
     :BundleInstall
 
-it will install all the "bundles" listed in the ~/.vimrc file.
-
-Exit with the command
+When Vundle is done with installing the bundles exit VIM with the command
 
     :qa
 
-Next time you open VIM it should work as expected.
-
+That's it.
