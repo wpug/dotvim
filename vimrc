@@ -223,3 +223,8 @@ highlight SpecialKey ctermfg=002
 " syntastic
 let g:syntastic_javascript_jslint_conf = "--sloppy"
 let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': [], 'passive_filetypes': ['scala'] }
+
+" detect and source the local vimrc
+if filereadable(glob("~/.vimrc.local")) 
+    source ~/.vimrc.local
+endif
