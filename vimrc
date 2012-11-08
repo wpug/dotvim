@@ -54,7 +54,8 @@ Bundle 'myhere/vim-nodejs-complete'
 Bundle 'adimit/prolog.vim'
 Bundle 'promela'
 Bundle 'promela.vim'
-Bundle 'derekwyatt/vim-scala.git'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'derekwyatt/vim-sbt'
 " }}}
 
 " programming utilities {{{
