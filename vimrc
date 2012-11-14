@@ -32,6 +32,12 @@ Bundle 'The-NERD-Commenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-repeat.git'
 Bundle 'tpope/vim-speeddating'
+" SnipMate - begin
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'wpug/snipmate-snippets'
+Bundle 'honza/vim-snipmate'
+" SnipMate - end
 Bundle 'tpope/vim-surround'
 Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-unimpaired'
@@ -43,7 +49,7 @@ Bundle 'wpug/vim-utl-calutil'
 Bundle 'wpug/vim-lang-alloy4'
 Bundle 'Better-CSS-Syntax-for-Vim'
 Bundle 'wpug/vim-lang-html'
-Bundle 'othree/html5.vim'
+"Bundle 'othree/html5.vim'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'pangloss/vim-javascript'
 Bundle 'JavaScript-Indent'
@@ -61,7 +67,6 @@ Bundle 'derekwyatt/vim-sbt'
 " programming utilities {{{
 Bundle 'walm/jshint.vim'
 Bundle 'jpalardy/vim-slime'
-Bundle 'scrooloose/syntastic'
 Bundle 'harleypig/vcscommand.vim'
 Bundle 'mattn/zencoding-vim.git'
 " }}}
@@ -220,10 +225,6 @@ highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 highlight NonText ctermfg=240
 highlight SpecialKey ctermfg=002
-
-" syntastic
-let g:syntastic_javascript_jslint_conf = "--sloppy"
-let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': [], 'passive_filetypes': ['scala'] }
 
 " detect and source the local vimrc
 if filereadable(glob("~/.vimrc.local")) 
