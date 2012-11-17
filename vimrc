@@ -49,6 +49,7 @@ Bundle 'wpug/vim-utl-calutil'
 Bundle 'wpug/vim-lang-alloy4'
 Bundle 'Better-CSS-Syntax-for-Vim'
 Bundle 'wpug/vim-lang-html'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'othree/html5.vim'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'pangloss/vim-javascript'
