@@ -32,6 +32,7 @@ Bundle 'The-NERD-Commenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-repeat.git'
 Bundle 'tpope/vim-speeddating'
+Bundle 'kien/ctrlp.vim'
 " SnipMate - begin
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
