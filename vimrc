@@ -28,11 +28,12 @@ Bundle 'wombat256.vim'
 Bundle 'bufkill.vim'
 Bundle 'IndentAnything'
 Bundle 'mru.vim'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 Bundle 'The-NERD-Commenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-repeat.git'
 Bundle 'tpope/vim-speeddating'
-Bundle 'kien/ctrlp.vim'
 " SnipMate - begin
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
@@ -227,6 +228,10 @@ highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 highlight NonText ctermfg=240
 highlight SpecialKey ctermfg=002
+
+nnoremap <silent> <C-b>      :FufBuffer<CR>
+nnoremap <silent> <C-f>      :FufFile<CR>
+nnoremap <silent> <C-d>      :FufDir<CR>
 
 " detect and source the local vimrc
 if filereadable(glob("~/.vimrc.local")) 
