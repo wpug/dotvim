@@ -49,7 +49,8 @@ Bundle 'wpug/vim-utl-calutil'
 
 " languages {{{
 Bundle 'wpug/vim-lang-alloy4'
-Bundle 'Better-CSS-Syntax-for-Vim'
+"Bundle 'Better-CSS-Syntax-for-Vim'
+Bundle 'hail2u/vim-css3-syntax'
 Bundle 'wpug/vim-lang-html'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'othree/html5.vim'
@@ -209,7 +210,7 @@ if has("autocmd")
     autocmd FileType javascript,scala setlocal list
     autocmd BufNewFile,BufRead *.json setf javascript
     "set tab width for specific file types (default == 4)
-    autocmd FileType html,jade,css setlocal ts=2 sts=2 sw=2 list
+    autocmd FileType html,jade,css,promela setlocal ts=2 sts=2 sw=2 list
 endif
 
 " Bubble single lines
