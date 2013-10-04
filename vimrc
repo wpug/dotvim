@@ -22,7 +22,8 @@ Bundle 'trivial256'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'xoria256.vim'
 Bundle 'wombat256.vim'
-Bundle 'tangphillip/SunburstVIM.git'
+" Bundle 'tangphillip/SunburstVIM.git'
+Bundle 'sickill/vim-sunburst.git'
 " }}}
 
 " utilities {{{
