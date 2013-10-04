@@ -22,12 +22,15 @@ Bundle 'trivial256'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'xoria256.vim'
 Bundle 'wombat256.vim'
+Bundle 'tangphillip/SunburstVIM.git'
 " }}}
 
 " utilities {{{
 Bundle 'bufkill.vim'
 Bundle 'IndentAnything'
 Bundle 'mru.vim'
+"Bundle 'matze/vim-move'
+Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'L9'
 "Bundle 'FuzzyFinder'
 Bundle 'The-NERD-Commenter'
@@ -72,7 +75,7 @@ Bundle 'derekwyatt/vim-sbt'
 Bundle 'walm/jshint.vim'
 Bundle 'jpalardy/vim-slime'
 Bundle 'harleypig/vcscommand.vim'
-Bundle 'mattn/zencoding-vim.git'
+Bundle 'mattn/emmet-vim.git'
 " }}}
 
 set number
