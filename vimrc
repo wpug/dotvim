@@ -185,7 +185,7 @@ nmap <silent> <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name")
 :let g:html_tag_case = 'lowercase'
 :let g:html_default_charset = 'utf-8'
 :let g:no_html_map_override = 'yes'
-:let NERDTreeIgnore=['\.vim$', '\~$', '\.class', '\.bak', '\.class']
+:let NERDTreeIgnore=['\.vim$', '\~$', '\.class$', '\.bak$', '^NTUSER.DAT', 'ntuser.ini']
 
 nnoremap <silent> <F4> :let _s=@/<Bar>:%s/\\(\\<[aiowuz]\\>\\)\\s*/\\1\\&nbsp;/geic<Bar>:%s%\\<\\([aiouw]&nbsp;\\)\\_$\\n\\s*\\(\\S\\+\\)\\s*%\\1\\2\\r%geic<Bar>:let @/=_s<CR>
 
@@ -214,7 +214,7 @@ if has("autocmd")
     autocmd FileType javascript,scala setlocal list
     autocmd BufNewFile,BufRead *.json setf javascript
     "set tab width for specific file types (default == 4)
-    autocmd FileType html,jade,css,promela setlocal ts=2 sts=2 sw=2 list
+    autocmd FileType html,less,jade,css,promela setlocal ts=2 sts=2 sw=2 list
 endif
 
 " Bubble single lines
