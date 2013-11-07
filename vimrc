@@ -210,7 +210,7 @@ if has("autocmd")
     " inoremap <silent> <F5> <C-O>:make %<CR><C-O>:cw<CR>
     nnoremap <silent> <C-F5> :cn<CR>
     nnoremap <silent> <S-F5> :cp<CR>
-    autocmd FileType javascript set equalprg=jsbeautifier\ -f\ %
+    autocmd FileType javascript set equalprg=js-beautify\ -f\ %
     autocmd FileType javascript,scala setlocal list
     autocmd BufNewFile,BufRead *.json setf javascript
     "set tab width for specific file types (default == 4)
