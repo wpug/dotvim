@@ -227,7 +227,7 @@ vmap <C-Down> ]egv
 " Define symbols for TAB stops and EOLs
 " set listchars=tab:➾\ ,eol:⏎
 " set listchars=tab:▸\ ,eol:∙
-set listchars=tab:▸\ ,eol:¬
+" set listchars=tab:▸\ ,eol:¬
 "Invisible character colors
 highlight NonText guifg=#4a4a59 
 highlight SpecialKey guifg=#4a4a59
